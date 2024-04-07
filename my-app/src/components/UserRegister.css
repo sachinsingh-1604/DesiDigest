@@ -1,0 +1,61 @@
+/* UserRegister.css */
+
+.user-register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #e6f2ff;
+    /* Blue background color */
+}
+
+.register-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3498db;
+    /* Blue text color */
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #3498db;
+    /* Blue text color */
+}
+
+.form-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.register-button {
+    padding: 10px 15px;
+    background-color: #3498db;
+    /* Blue background color */
+    color: #fff;
+    /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-button:hover {
+    background-color: #2980b9;
+    /* Darker blue on hover */
+}

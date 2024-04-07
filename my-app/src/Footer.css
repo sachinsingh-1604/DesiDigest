@@ -1,0 +1,21 @@
+/* Footer.css */
+
+.footer {
+    background-color: #3498db;
+    /* Blue background color */
+    color: #fff;
+    /* White text color */
+    padding: 15px 0;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    font-size: 24px;
+    margin: 0 auto;
+}

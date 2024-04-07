@@ -1,0 +1,24 @@
+/* FollowerPanel.css */
+
+.follower-panel {
+    background-color: #e6f2ff;
+    /* Blue background color */
+    color: #333;
+    /* White text color */
+    padding: 20px;
+    text-align: left;
+    left: 20%;
+}
+
+.follower-title {
+    margin-bottom: 10px;
+}
+
+.follower-list {
+    list-style: none;
+    padding: 0;
+}
+
+.follower-item {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,67 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #3498db;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.home a {
+    color: white;
+    text-decoration: none;
+}
+
+.search-box input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #fff;
+    /* White background color */
+    color: #333;
+    /* Dark text color */
+    width: 200px;
+    /* Adjust width as needed */
+}
+
+.search-box button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2980b9;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.location a,
+.user-actions a {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2980b9;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.search-box button:hover,
+.location a:hover,
+.user-actions a:hover,
+.home a:hover {
+    background-color: #1e6da8;
+    /* Darker blue on hover */
+}
